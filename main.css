@@ -32,9 +32,18 @@ section {
     border: 1px dashed red;
 }
 
+section#home {
+    background-color: #14648c;
+}
+
+section#about_me {
+    background-color: #f288d9;
+}
+
 footer {
     width: 100%;
     height: 50px;
+    background-color: #161a17;
     border: 1px dashed olivedrab;
 }
 
@@ -53,4 +62,14 @@ nav#main_nav li {
     padding: 5px; 
     text-transform: uppercase;
     /* border: 1px dashed red; */
+}
+
+/* -- LARGER SCREENS -- */
+
+@media screen and (min-width: 900px) {
+    section {
+        width: 75%;
+        margin: auto;
+        border: 1px dashed black;
+    }
 }
