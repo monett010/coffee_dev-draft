@@ -9,7 +9,7 @@ html {
 }
 
 body {
-	font-family: "sans serif";
+	font-family: "Roboto Flex", "sans serif";
 }
 
 a {
@@ -58,13 +58,13 @@ section {
     /* border: 1px dashed red; */
 }
 
-section#home {
+/* section#home {
     background-color: #14648c;
 }
 
 section#about_me {
     background-color: #f288d9;
-}
+} */
 
 /* section > h1 {
     text-align: center;
