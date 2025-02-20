@@ -50,6 +50,19 @@ nav#main_nav li {
     /* border: 1px dashed red; */
 }
 
+/* nav#main_nav li > {
+    display: inline-block;
+} */
+
+/* li a::after {
+    content: '';
+    position: absolute;
+
+    width: 5%;
+    height: 3px;
+    background: red;
+} */
+
 section {
     width: 100%;
     height: 100vh;
@@ -69,6 +82,25 @@ section#about_me {
 /* section > h1 {
     text-align: center;
 } */
+
+/* div#contact_wrapper {
+    display: flex;
+} */
+
+section#social_links {
+    display: flex;
+}
+
+div.social {
+    height: 250px;
+    width: 250px;
+    border: 1px dashed black;
+}
+
+div.social img {
+    height: 100px; width: 100px;
+    border: 1px dashed red;
+}
 
 footer {
     width: 100%;
