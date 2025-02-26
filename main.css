@@ -50,18 +50,6 @@ nav#main_nav li {
     /* border: 1px dashed red; */
 }
 
-/* nav#main_nav li > {
-    display: inline-block;
-} */
-
-/* li a::after {
-    content: '';
-    position: absolute;
-
-    width: 5%;
-    height: 3px;
-    background: red;
-} */
 
 section {
     width: 100%;
@@ -94,13 +82,13 @@ section#social_links {
 div.social {
     height: 250px;
     width: 250px;
-    border: 1px dashed black;
+    /* border: 1px dashed black; */
 }
 
-div.social img {
+/* div.social img {
     height: 100px; width: 100px;
     border: 1px dashed red;
-}
+} */
 
 footer {
     width: 100%;
