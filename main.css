@@ -114,6 +114,36 @@ footer {
 /* -- LARGER SCREENS -- */
 
 @media screen and (min-width: 900px) {
+
+    header {
+        width: 100%;
+        height: 15vh;
+        position: sticky; top: 0;
+        font-size: 1.5rem;
+        display: flex;
+        align-items:end;
+        /* border: 1px dashed blue; */
+    }
+    
+    nav#main_nav {
+        height: 100%; width: 100%;
+        display: flex;
+        justify-content: right;
+        align-items: end;
+        text-align: center;
+        /* border: 1px dashed red; */
+    }
+
+    #main_nav ul {
+        padding-right: 70px;
+        /* border: 1px dashed green; */
+    }
+
+    #main_nav ul a {
+        width: 100%;
+        height: 100%;
+    }
+
     section > div {
         width: 75%;
         margin: auto;
